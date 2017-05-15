@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D853B7ED1EC9B6F100983987 /* TanImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D853B7EA1EC9B6F100983987 /* TanImageView.m */; };
+		D853B7EE1EC9B6F100983987 /* TanItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D853B7EC1EC9B6F100983987 /* TanItem.m */; };
+		D857A9AF1EC54DD7008F380E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D857A9AE1EC54DD7008F380E /* main.m */; };
+		D857A9B21EC54DD7008F380E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D857A9B11EC54DD7008F380E /* AppDelegate.m */; };
+		D857A9B51EC54DD7008F380E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D857A9B41EC54DD7008F380E /* ViewController.m */; };
+		D857A9B81EC54DD7008F380E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D857A9B61EC54DD7008F380E /* Main.storyboard */; };
+		D857A9BA1EC54DD7008F380E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D857A9B91EC54DD7008F380E /* Assets.xcassets */; };
+		D857A9BD1EC54DD7008F380E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D857A9BB1EC54DD7008F380E /* LaunchScreen.storyboard */; };
+		D857A9C81EC54DD7008F380E /* TanTanTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D857A9C71EC54DD7008F380E /* TanTanTestTests.m */; };
+		D857A9D31EC54DD7008F380E /* TanTanTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D857A9D21EC54DD7008F380E /* TanTanTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D857A9C41EC54DD7008F380E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D857A9A21EC54DD7008F380E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D857A9A91EC54DD7008F380E;
+			remoteInfo = TanTanTest;
+		};
+		D857A9CF1EC54DD7008F380E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D857A9A21EC54DD7008F380E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D857A9A91EC54DD7008F380E;
+			remoteInfo = TanTanTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D853B7E91EC9B6F100983987 /* TanImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TanImageView.h; sourceTree = "<group>"; };
+		D853B7EA1EC9B6F100983987 /* TanImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TanImageView.m; sourceTree = "<group>"; };
+		D853B7EB1EC9B6F100983987 /* TanItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TanItem.h; sourceTree = "<group>"; };
+		D853B7EC1EC9B6F100983987 /* TanItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TanItem.m; sourceTree = "<group>"; };
+		D857A9AA1EC54DD7008F380E /* TanTanTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TanTanTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D857A9AE1EC54DD7008F380E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D857A9B01EC54DD7008F380E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D857A9B11EC54DD7008F380E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D857A9B31EC54DD7008F380E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D857A9B41EC54DD7008F380E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D857A9B71EC54DD7008F380E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D857A9B91EC54DD7008F380E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D857A9BC1EC54DD7008F380E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D857A9BE1EC54DD7008F380E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D857A9C31EC54DD7008F380E /* TanTanTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TanTanTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D857A9C71EC54DD7008F380E /* TanTanTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TanTanTestTests.m; sourceTree = "<group>"; };
+		D857A9C91EC54DD7008F380E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D857A9CE1EC54DD7008F380E /* TanTanTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TanTanTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D857A9D21EC54DD7008F380E /* TanTanTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TanTanTestUITests.m; sourceTree = "<group>"; };
+		D857A9D41EC54DD7008F380E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D857A9A71EC54DD7008F380E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D857A9C01EC54DD7008F380E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D857A9CB1EC54DD7008F380E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D853B7E81EC9B6C200983987 /* TanImage */ = {
+			isa = PBXGroup;
+			children = (
+				D853B7E91EC9B6F100983987 /* TanImageView.h */,
+				D853B7EA1EC9B6F100983987 /* TanImageView.m */,
+				D853B7EB1EC9B6F100983987 /* TanItem.h */,
+				D853B7EC1EC9B6F100983987 /* TanItem.m */,
+			);
+			path = TanImage;
+			sourceTree = "<group>";
+		};
+		D857A9A11EC54DD7008F380E = {
+			isa = PBXGroup;
+			children = (
+				D857A9AC1EC54DD7008F380E /* TanTanTest */,
+				D857A9C61EC54DD7008F380E /* TanTanTestTests */,
+				D857A9D11EC54DD7008F380E /* TanTanTestUITests */,
+				D857A9AB1EC54DD7008F380E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D857A9AB1EC54DD7008F380E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D857A9AA1EC54DD7008F380E /* TanTanTest.app */,
+				D857A9C31EC54DD7008F380E /* TanTanTestTests.xctest */,
+				D857A9CE1EC54DD7008F380E /* TanTanTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D857A9AC1EC54DD7008F380E /* TanTanTest */ = {
+			isa = PBXGroup;
+			children = (
+				D853B7E81EC9B6C200983987 /* TanImage */,
+				D857A9B01EC54DD7008F380E /* AppDelegate.h */,
+				D857A9B11EC54DD7008F380E /* AppDelegate.m */,
+				D857A9B31EC54DD7008F380E /* ViewController.h */,
+				D857A9B41EC54DD7008F380E /* ViewController.m */,
+				D857A9B61EC54DD7008F380E /* Main.storyboard */,
+				D857A9B91EC54DD7008F380E /* Assets.xcassets */,
+				D857A9BB1EC54DD7008F380E /* LaunchScreen.storyboard */,
+				D857A9BE1EC54DD7008F380E /* Info.plist */,
+				D857A9AD1EC54DD7008F380E /* Supporting Files */,
+			);
+			path = TanTanTest;
+			sourceTree = "<group>";
+		};
+		D857A9AD1EC54DD7008F380E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D857A9AE1EC54DD7008F380E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D857A9C61EC54DD7008F380E /* TanTanTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D857A9C71EC54DD7008F380E /* TanTanTestTests.m */,
+				D857A9C91EC54DD7008F380E /* Info.plist */,
+			);
+			path = TanTanTestTests;
+			sourceTree = "<group>";
+		};
+		D857A9D11EC54DD7008F380E /* TanTanTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D857A9D21EC54DD7008F380E /* TanTanTestUITests.m */,
+				D857A9D41EC54DD7008F380E /* Info.plist */,
+			);
+			path = TanTanTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D857A9A91EC54DD7008F380E /* TanTanTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D857A9D71EC54DD7008F380E /* Build configuration list for PBXNativeTarget "TanTanTest" */;
+			buildPhases = (
+				D857A9A61EC54DD7008F380E /* Sources */,
+				D857A9A71EC54DD7008F380E /* Frameworks */,
+				D857A9A81EC54DD7008F380E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TanTanTest;
+			productName = TanTanTest;
+			productReference = D857A9AA1EC54DD7008F380E /* TanTanTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D857A9C21EC54DD7008F380E /* TanTanTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D857A9DA1EC54DD7008F380E /* Build configuration list for PBXNativeTarget "TanTanTestTests" */;
+			buildPhases = (
+				D857A9BF1EC54DD7008F380E /* Sources */,
+				D857A9C01EC54DD7008F380E /* Frameworks */,
+				D857A9C11EC54DD7008F380E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D857A9C51EC54DD7008F380E /* PBXTargetDependency */,
+			);
+			name = TanTanTestTests;
+			productName = TanTanTestTests;
+			productReference = D857A9C31EC54DD7008F380E /* TanTanTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D857A9CD1EC54DD7008F380E /* TanTanTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D857A9DD1EC54DD7008F380E /* Build configuration list for PBXNativeTarget "TanTanTestUITests" */;
+			buildPhases = (
+				D857A9CA1EC54DD7008F380E /* Sources */,
+				D857A9CB1EC54DD7008F380E /* Frameworks */,
+				D857A9CC1EC54DD7008F380E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D857A9D01EC54DD7008F380E /* PBXTargetDependency */,
+			);
+			name = TanTanTestUITests;
+			productName = TanTanTestUITests;
+			productReference = D857A9CE1EC54DD7008F380E /* TanTanTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D857A9A21EC54DD7008F380E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "杭州迪火科技有限公司";
+				TargetAttributes = {
+					D857A9A91EC54DD7008F380E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3YA59WQ63S;
+						ProvisioningStyle = Automatic;
+					};
+					D857A9C21EC54DD7008F380E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3YA59WQ63S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D857A9A91EC54DD7008F380E;
+					};
+					D857A9CD1EC54DD7008F380E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3YA59WQ63S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D857A9A91EC54DD7008F380E;
+					};
+				};
+			};
+			buildConfigurationList = D857A9A51EC54DD7008F380E /* Build configuration list for PBXProject "TanTanTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D857A9A11EC54DD7008F380E;
+			productRefGroup = D857A9AB1EC54DD7008F380E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D857A9A91EC54DD7008F380E /* TanTanTest */,
+				D857A9C21EC54DD7008F380E /* TanTanTestTests */,
+				D857A9CD1EC54DD7008F380E /* TanTanTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D857A9A81EC54DD7008F380E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D857A9BD1EC54DD7008F380E /* LaunchScreen.storyboard in Resources */,
+				D857A9BA1EC54DD7008F380E /* Assets.xcassets in Resources */,
+				D857A9B81EC54DD7008F380E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D857A9C11EC54DD7008F380E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D857A9CC1EC54DD7008F380E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D857A9A61EC54DD7008F380E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D857A9B51EC54DD7008F380E /* ViewController.m in Sources */,
+				D857A9B21EC54DD7008F380E /* AppDelegate.m in Sources */,
+				D853B7ED1EC9B6F100983987 /* TanImageView.m in Sources */,
+				D857A9AF1EC54DD7008F380E /* main.m in Sources */,
+				D853B7EE1EC9B6F100983987 /* TanItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D857A9BF1EC54DD7008F380E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D857A9C81EC54DD7008F380E /* TanTanTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D857A9CA1EC54DD7008F380E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D857A9D31EC54DD7008F380E /* TanTanTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D857A9C51EC54DD7008F380E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D857A9A91EC54DD7008F380E /* TanTanTest */;
+			targetProxy = D857A9C41EC54DD7008F380E /* PBXContainerItemProxy */;
+		};
+		D857A9D01EC54DD7008F380E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D857A9A91EC54DD7008F380E /* TanTanTest */;
+			targetProxy = D857A9CF1EC54DD7008F380E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D857A9B61EC54DD7008F380E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D857A9B71EC54DD7008F380E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D857A9BB1EC54DD7008F380E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D857A9BC1EC54DD7008F380E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D857A9D51EC54DD7008F380E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D857A9D61EC54DD7008F380E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D857A9D81EC54DD7008F380E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3YA59WQ63S;
+				INFOPLIST_FILE = TanTanTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolongxia.TanTanTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D857A9D91EC54DD7008F380E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3YA59WQ63S;
+				INFOPLIST_FILE = TanTanTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolongxia.TanTanTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D857A9DB1EC54DD7008F380E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3YA59WQ63S;
+				INFOPLIST_FILE = TanTanTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolongxia.TanTanTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TanTanTest.app/TanTanTest";
+			};
+			name = Debug;
+		};
+		D857A9DC1EC54DD7008F380E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3YA59WQ63S;
+				INFOPLIST_FILE = TanTanTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolongxia.TanTanTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TanTanTest.app/TanTanTest";
+			};
+			name = Release;
+		};
+		D857A9DE1EC54DD7008F380E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3YA59WQ63S;
+				INFOPLIST_FILE = TanTanTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolongxia.TanTanTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TanTanTest;
+			};
+			name = Debug;
+		};
+		D857A9DF1EC54DD7008F380E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3YA59WQ63S;
+				INFOPLIST_FILE = TanTanTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolongxia.TanTanTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TanTanTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D857A9A51EC54DD7008F380E /* Build configuration list for PBXProject "TanTanTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D857A9D51EC54DD7008F380E /* Debug */,
+				D857A9D61EC54DD7008F380E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D857A9D71EC54DD7008F380E /* Build configuration list for PBXNativeTarget "TanTanTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D857A9D81EC54DD7008F380E /* Debug */,
+				D857A9D91EC54DD7008F380E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D857A9DA1EC54DD7008F380E /* Build configuration list for PBXNativeTarget "TanTanTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D857A9DB1EC54DD7008F380E /* Debug */,
+				D857A9DC1EC54DD7008F380E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D857A9DD1EC54DD7008F380E /* Build configuration list for PBXNativeTarget "TanTanTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D857A9DE1EC54DD7008F380E /* Debug */,
+				D857A9DF1EC54DD7008F380E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D857A9A21EC54DD7008F380E /* Project object */;
+}
