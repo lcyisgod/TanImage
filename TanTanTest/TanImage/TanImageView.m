@@ -71,7 +71,15 @@
 -(CGSize)sizeOfItemWithRow:(int)row
 {
     if ([self.delegate respondsToSelector:@selector(sizeItem:inRow:)]) {
-        return [self.delegate sizeItem:self inRow:row];
+        CGSize size = [self.delegate sizeItem:self inRow:row];
+        if (size.width > self.frame.size.width) {
+            size.width = self.frame.size.width;
+        }
+        
+        if (size.height > self.frame.size.height) {
+            size.height = self.frame.size.height;
+        }
+        return size;
     }
     return CGSizeMake(self.frame.size.width, self.frame.size.height);
 }
